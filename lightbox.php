@@ -69,7 +69,7 @@ jQuery(document).ready(function($) {
 		if (caption)	$(this).attr('data-caption', caption);
 	});
 	// Group them so you can look prev/next.
-	$('a[rel="fancybox"]').attr('data-fancybox', '-0');
+	$('a[rel="fancybox"]').attr('data-fancybox', 'view');
 	$("[data-fancybox]").fancybox({ loop: true });
 });
 </script>
